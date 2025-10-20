@@ -46,24 +46,24 @@ ServerEvents.recipes((event) => {
     "sapphire",
     "topaz"
   ].forEach((material) => {
-    addCasting("allthecompressed:sand_5x", { tag: `c:molten_${material}` }, { item: `geore:budding_${material}` })
+    addCasting("allthecompressed:sand_4x", { tag: `c:molten_${material}` }, { item: `geore:budding_${material}` })
   })
 
-  addCasting("allthecompressed:sand_5x", { tag: "c:molten_carbon" }, { item: "geore:budding_coal" })
-  addCasting("allthecompressed:sand_5x", { tag: "c:molten_amethyst" }, { item: "minecraft:budding_amethyst" })
-  addCasting("allthecompressed:red_sand_5x", { tag: "c:molten_quartz" }, { item: "geore:budding_black_quartz" })
+  addCasting("allthecompressed:sand_4x", { tag: "c:molten_carbon" }, { item: "geore:budding_coal" })
+  addCasting("allthecompressed:sand_4x", { tag: "c:molten_amethyst" }, { item: "minecraft:budding_amethyst" })
+  addCasting("allthecompressed:red_sand_4x", { tag: "c:molten_quartz" }, { item: "geore:budding_black_quartz" })
   addCasting(
-    "allthecompressed:sand_6x",
+    "allthecompressed:sand_5x",
     { fluid: "allthemodium:molten_unobtainium", amount: 7290 },
     { item: "geore:budding_unobtainium" }
   )
   addCasting(
-    "allthecompressed:sand_6x",
+    "allthecompressed:sand_5x",
     { fluid: "allthemodium:molten_vibranium", amount: 7290 },
     { item: "geore:budding_vibranium" }
   )
   addCasting(
-    "allthecompressed:sand_6x",
+    "allthecompressed:sand_5x",
     { fluid: "allthemodium:molten_allthemodium", amount: 7290 },
     { item: "geore:budding_allthemodium" }
   )
