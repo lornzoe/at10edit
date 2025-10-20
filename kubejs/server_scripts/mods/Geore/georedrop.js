@@ -28,21 +28,21 @@ ServerEvents.generateData("after_mods", (allthemods) => {
     allthemods.json(`geore:loot_table/blocks/budding_${id}.json`, {
       type: "minecraft:block",
       pools: [
-        {
-          bonus_rolls: 0.0,
-          conditions: [
-            {
-              condition: "minecraft:survives_explosion"
-            }
-          ],
-          entries: [
-            {
-              type: "minecraft:item",
-              name: "geore:budding_" + id
-            }
-          ],
-          rolls: 1.0
-        }
+        // {
+        //   bonus_rolls: 0.0,
+        //   conditions: [
+        //     {
+        //       condition: "minecraft:survives_explosion"
+        //     }
+        //   ],
+        //   entries: [
+        //     {
+        //       type: "minecraft:item",
+        //       name: "geore:budding_" + id
+        //     }
+        //   ],
+        //   rolls: 1.0
+        // }
       ],
       random_sequence: "geore:blocks/budding_" + id
     })
