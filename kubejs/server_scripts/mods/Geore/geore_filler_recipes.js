@@ -7,11 +7,11 @@ ServerEvents.recipes(allthemods => {
 		},
 		{
 			result: 'geore:budding_monazite',
-			crystal: 'modern_industialization:monazite_block'
+			crystal: 'modern_industrialization:monazite_block'
 		},
 		{
 			result: 'geore:budding_tungsten',
-			crystal: 'modern_industialization:tungsten_block'
+			crystal: 'modern_industrialization:tungsten_block'
 		},
 		{
 			result: 'geore:budding_uraninite',
